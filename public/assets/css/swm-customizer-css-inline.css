@@ -1,0 +1,104 @@
+.swm-post-title h2,
+.swm-post-title h2 a,
+.swm-post-title h1 {
+  letter-spacing: 0px;
+  text-transform: lowercase;
+}
+.swm-post-meta {
+  text-transform: lowercase;
+}
+@media only screen and (min-width: 1025px) {
+  .swm-post-title h2,
+  .swm-post-title h2 a,
+  .swm-post-title h1 {
+    font-size: 65px;
+    line-height: 70px;
+    font-weight: 500;
+  }
+}
+@media (min-width: 1025px) {
+  .swm-container {
+    max-width: 1440px;
+  }
+}
+.swm-container {
+  padding: 0 20px;
+}
+.swm-main-container.swm-site-content {
+  padding: 0;
+}
+body {
+  font-family: "Poppins";
+  font-weight: 500;
+  font-style: normal !important;
+  letter-spacing: 0em;
+}
+:root {
+  --swm-body-font-family: "Poppins";
+  --swm-headings-font-family: "Poppins";
+  --swm-headings-font-style: normal !important;
+  --swm-headings-font-weight: 600;
+  --swm-headings-letter-spacing: 0em;
+  --swm-secondary-font-family: "Roboto Mono";
+  --swm-secondary-font-weight: 400;
+  --swm-secondary-font-style: normal !important;
+  --swm-secondary-font-letter-spacing: 0em;
+}
+@media only screen and (max-width: 1024px) {
+  .swm-main-container.swm-site-content {
+    padding: 0;
+  }
+}
+@media only screen and (min-width: 1025px) {
+  .swm-custom-two-third {
+    width: 68%;
+  }
+  #sidebar {
+    width: 26%;
+  }
+}
+#swm-mobi-nav {
+  text-transform: none;
+}
+body {
+  --swm-sidebar-title-font-size: 32px;
+  --swm-sidebar-title-letter-space: 0px;
+  --swm-sidebar-title-transform: lowercase;
+}
+.swm-list-widgets {
+  text-transform: none;
+}
+body {
+  --swm-color-body: #ffffff;
+  --swm-color-headings: #000000;
+  --swm-color-text: #000000;
+  --swm-color-link: #000000;
+  --swm-color-link-hover: #000000;
+  --swm-color-border: #707070;
+  --swm-color-border-hover: #000000;
+  --swm-color-dark-1: #000000;
+  --swm-color-dark-2: #333333;
+  --swm-color-light-1: #ffffff;
+  --swm-color-light-2: #f2f2f2;
+  --swm-sidebar-font-size: 15px;
+  --body-font-size: 15px;
+  --swm-body-line-height: 1.85em;
+  --swm-h1-font-size: 75px;
+  --swm-h1-line-height: 1.3em;
+  --swm-h1-font-weight: 500;
+  --swm-h2-font-size: 60px;
+  --swm-h2-line-height: 1.2em;
+  --swm-h2-font-weight: 500;
+  --swm-h3-font-size: 50px;
+  --swm-h3-line-height: 1.2em;
+  --swm-h3-font-weight: 500;
+  --swm-h4-font-size: 45px;
+  --swm-h4-line-height: 1.2em;
+  --swm-h4-font-weight: 600;
+  --swm-h5-font-size: 32px;
+  --swm-h5-line-height: 1.2em;
+  --swm-h5-font-weight: 600;
+  --swm-h6-font-size: 20px;
+  --swm-h6-line-height: 1.2em;
+  --swm-h6-font-weight: 600;
+}
